@@ -1,47 +1,37 @@
 # Anshul Israni — Portfolio
 
-Personal portfolio site: electrical engineering, embedded systems, and validation.
-Built with **Next.js 15 · TypeScript · Tailwind CSS · Framer Motion · Lucide Icons**.
+Personal portfolio website built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
 
-## Quick start
+## Tech Stack
+
+- **Framework:** Next.js 15 (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** Framer Motion
+- **Font:** Times New Roman (system serif)
+
+## Sections
+
+- **Hero** — Name, tagline, and CTAs
+- **About** — Bio and quick facts
+- **Skills** — Education and technical skill categories
+- **Experience** — Five co-op and internship roles
+- **Projects** — Filterable project cards
+- **Contact** — Phone, email, LinkedIn, GitHub
+
+## Getting Started
 
 ```bash
 npm install
-npm run dev      # http://localhost:3000
-npm run build    # production build
+npm run dev
 ```
 
-## Editing content
+Open [http://localhost:3000](http://localhost:3000) to view it locally.
 
-**All site content lives in [`lib/data.ts`](lib/data.ts)** — bio, experience,
-projects, skills, education, links. Edit that one file to update the site;
-no component changes needed.
+## Content
 
-### Clearly marked placeholders
+All site content lives in [`lib/data.ts`](lib/data.ts). Edit that file to update any section without touching component code.
 
-| What | Where | How to replace |
-| --- | --- | --- |
-| Headshot | Monogram avatar in the About card | Save a photo to `public/images/headshot.jpg`, then swap the marked `<div>` in `components/sections/About.tsx` for the `<Image>` snippet in the comment beside it |
-| Project photos | Custom schematic line-art (intentional, on-brand) | Save images to `public/projects/<slug>.jpg` and swap them into `components/ProjectCard` (see comment in `components/sections/Projects.tsx`) |
-| Project links | GitHub/docs/demo per project | Fill the `links` object per project in `lib/data.ts` |
-| Production URL | `site.url` in `lib/data.ts` | Set to your Vercel domain after first deploy (drives sitemap, OG tags, JSON-LD) |
-| Resume PDF | `public/resume/Anshul-Israni-Resume.pdf` | Drop in a newer PDF with the same filename |
-| Contact form | Opens the visitor's mail client (`mailto:`) | To use a hosted service (Formspree etc.), edit `handleSubmit` in `components/sections/Contact.tsx` |
-| Download analytics | Console stub | Wire `trackResumeDownload` in `components/sections/Resume.tsx` to Vercel Analytics/Plausible |
+## Deployment
 
-## Deploying to Vercel
-
-1. Push this folder to a GitHub repo.
-2. Import the repo at vercel.com — zero config needed.
-3. After the first deploy, set `site.url` in `lib/data.ts` to the assigned domain and redeploy.
-
-## Structure
-
-```
-app/            layout, page, globals.css, SEO routes (sitemap, robots, OG image, favicon)
-components/     shared UI (Navbar, Footer, Reveal, PcbTraces, counters, …)
-components/sections/  one file per page section
-hooks/          useActiveSection (scroll-spy)
-lib/            data.ts (ALL content) + utils
-public/         resume PDF, images, project assets
-```
+Deployed on [Vercel](https://vercel.com). Push to `main` to trigger a new deployment.
