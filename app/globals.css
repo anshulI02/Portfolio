@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-size: 18px;
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-base-950 font-sans text-ink;
+  }
+
+  ::selection {
+    background: rgba(34, 211, 238, 0.25);
+  }
+
+  /* Visible, on-brand keyboard focus */
+  :focus-visible {
+    outline: 2px solid #22d3ee;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Slim, unobtrusive scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0d131d;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e2a3a;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2a3a50;
+  }
+}
+
+@layer utilities {
+  /* Traveling signal pulse on hero PCB traces */
+  .trace-pulse {
+    stroke-dasharray: 48 560;
+    animation: trace-flow 12s linear infinite;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .trace-pulse,
+  .animate-pulse-dot {
+    animation: none !important;
+  }
+  .trace-pulse {
+    stroke-dasharray: none;
+    opacity: 0.25;
+  }
+}
