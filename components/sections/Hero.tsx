@@ -47,14 +47,14 @@ export default function Hero() {
           </a>
           <a
             href="#experience"
-            className="inline-flex items-center gap-2 rounded-xl border border-line bg-base-900/60 px-5 py-3 text-sm font-medium text-ink backdrop-blur transition-colors hover:border-accent/40 hover:text-accent"
+            className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-gold to-coral px-5 py-3 text-sm font-semibold text-base-950 shadow-[0_0_30px_rgba(251,191,36,0.2)] transition-transform hover:scale-[1.02] active:scale-[0.98]"
           >
             <Briefcase size={16} aria-hidden />
             Work Experience
           </a>
           <a
             href="#contact"
-            className="group inline-flex items-center gap-2 rounded-xl px-5 py-3 text-sm font-medium text-ink-dim transition-colors hover:text-ink"
+            className="group inline-flex items-center gap-2 rounded-xl border border-line bg-base-900/60 px-5 py-3 text-sm font-medium text-ink backdrop-blur transition-colors hover:border-accent/40 hover:text-accent"
           >
             Contact Me
             <ArrowRight size={16} aria-hidden className="transition-transform group-hover:translate-x-0.5" />

@@ -140,7 +140,7 @@ export const experiences: Experience[] = [
     summary:
       "I worked across two projects, the All-in-One Inverter System and Terra, developing and verifying system-level control logic for industry-standard power-flow modes including Self-Consumption, Grid-to-Vehicle, and Vehicle-to-Grid in MATLAB/Simulink. I authored structured requirements-based validation cases in Jama Connect and collaborated with senior engineers on Hardware-in-the-Loop (HIL) testing to ensure real-time controller behavior aligned with simulation. Across both projects, I gained hands-on experience in systems-level V&V, requirements traceability, and cross-functional issue resolution.",
     impact: "~40% faster regression testing through automated validation",
-    tech: ["MATLAB/Simulink", "HIL Testing", "Jama", "State Machines", "Power Systems"],
+    tech: ["MATLAB/Simulink", "HIL Testing", "Jama", "Power Electronics"],
   },
   {
     company: "Fingerprint Technologies",
@@ -154,7 +154,7 @@ export const experiences: Experience[] = [
     summary:
       "I implemented BLE firmware on ESP32 to stream real-time speed and cadence data to a mobile application, then expanded into motor-control PCB troubleshooting, diagnosing hardware faults and validating fixes through dynamic VESC testing. I also conducted comprehensive motor thermal performance testing on a 2WD dyno rig and designed a custom wire harness to integrate the entire drivetrain.",
     impact: "Two beta prototypes brought to production-ready state",
-    tech: ["ESP32", "Embedded C", "BLE / GATT", "PCB Bring-up", "VESC", "Dyno Testing"],
+    tech: ["ESP32", "Embedded C", "BLE / GATT", "PCB Bring-up", "VESC"],
   },
   {
     company: "UBC Thunderbikes",
@@ -168,7 +168,7 @@ export const experiences: Experience[] = [
     summary:
       "I led a team of 5 in the full-cycle design and development of a 28S3P battery pack (92V, 225A) across three modules for a Suzuki GSX-R600 electric motorcycle, from CAD models for bus bars and cell holders to fabricating the I/O wire harness interfacing with the BMS. I designed a voltage-divider-based charging circuit with precise voltage (58.4V) and current (7.5A) control for seamless BMS integration, and validated relay-control firmware in STM32CubeIDE for safe state transitions between ignition, operation, and charging modes. We showcased the motorcycle at the AHRMA Formula Lightning Race at WeatherTech Raceway Laguna Seca in July 2024.",
     impact: "100V pack integrated with CAN-based telemetry and protection",
-    tech: ["LiFePO₄", "BMS / CAN Bus", "STM32", "Embedded C", "Wire Harness", "SolidWorks"],
+    tech: ["LiFePO₄", "BMS / CAN Bus", "STM32", "Embedded C", "SolidWorks"],
   },
   {
     company: "STEMCELL Technologies",
@@ -182,7 +182,7 @@ export const experiences: Experience[] = [
     summary:
       "I built a Lab Inventory Management System using Google Apps Script and Sheets, creating a live database for over 1,000 pieces of equipment that reduced asset search time by 25%. I also developed interactive lab floor plans dynamically linked to the inventory database and contributed to integrating a new equipment booking system. This role gave me practical exposure to quality-driven documentation standards and cross-functional collaboration within a regulated life sciences environment.",
     impact: "25% faster asset search across 1,000+ instruments",
-    tech: ["Google Apps Script", "Automation", "Data Systems"],
+    tech: ["Google Apps Script", "Automation", "Data Management"],
   },
   {
     company: "Tata Consultancy Services",
@@ -196,7 +196,7 @@ export const experiences: Experience[] = [
     summary:
       "I developed five AI-powered chatbots using the Rasa framework to automate citizen query handling for government services, leveraging NLP for intent classification, entity recognition, and context-aware dialogue management. A key deliverable was an FAQ chatbot integrating over 50 entities for both predefined and dynamic responses. I also wrote Python scripts to fine-tune model behavior and ensure reliable, contextually relevant outputs.",
     impact: "5 specialized NLP chatbots deployed to automate query handling",
-    tech: ["Python", "Rasa", "NLP", "Intent Classification", "Chatbots"],
+    tech: ["Python", "Rasa", "NLP", "Chatbots"],
   },
 ];
 

@@ -87,7 +87,7 @@ export default function Projects() {
   );
 
   return (
-    <section id="projects" className="scroll-mt-24 border-t border-line">
+    <section id="projects" className="scroll-mt-16 border-t border-line">
       <div className="mx-auto max-w-content px-5 py-10 md:px-8 md:py-16">
         <SectionHeading
           eyebrow="Projects"

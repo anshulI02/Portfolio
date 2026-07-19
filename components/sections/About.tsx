@@ -6,7 +6,7 @@ import { about, education, site } from "@/lib/data";
 
 export default function About() {
   return (
-    <section id="about" className="scroll-mt-24">
+    <section id="about" className="scroll-mt-16">
       <div className="mx-auto max-w-content px-5 py-10 md:px-8 md:py-16">
         <SectionHeading
           eyebrow="About"

@@ -18,7 +18,7 @@ function chipClass(_level: SkillLevel) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="scroll-mt-24 border-t border-line">
+    <section id="skills" className="scroll-mt-16 border-t border-line">
       <div className="mx-auto max-w-content px-5 py-10 md:px-8 md:py-16">
         <SectionHeading
           eyebrow="Education & Skills"

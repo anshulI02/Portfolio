@@ -7,12 +7,12 @@ import { cn } from "@/lib/utils";
 
 export default function Experience() {
   return (
-    <section id="experience" className="scroll-mt-24 border-t border-line bg-base-900/40">
+    <section id="experience" className="scroll-mt-16 border-t border-line bg-base-900/40">
       <div className="mx-auto max-w-content px-5 py-10 md:px-8 md:py-16">
         <SectionHeading
           eyebrow="Work Experience"
           title="Five roles of real engineering"
-          description="Co-op and internship roles across energy systems, e-mobility, biotech R&D, and AI automation."
+          description="Co-op and internship roles across power electronics, firmware, biotech R&D, and AI automation."
         />
 
         <div className="relative">

@@ -20,7 +20,7 @@ const channels: Channel[] = [
 
 export default function Contact() {
   return (
-    <section id="contact" className="scroll-mt-24 border-t border-line">
+    <section id="contact" className="scroll-mt-16 border-t border-line">
       <div className="mx-auto max-w-content px-5 py-10 md:px-8 md:py-16">
         <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-20">
 
