@@ -1,4 +1,4 @@
-# Anshul Israni — Portfolio
+# Anshul Israni - Portfolio
 
 Personal portfolio website built with Next.js 15, TypeScript, Tailwind CSS, and Framer Motion.
 
@@ -12,12 +12,12 @@ Personal portfolio website built with Next.js 15, TypeScript, Tailwind CSS, and 
 
 ## Sections
 
-- **Hero** — Name, tagline, and CTAs
-- **About** — Bio and quick facts
-- **Skills** — Education and technical skill categories
-- **Experience** — Five co-op and internship roles
-- **Projects** — Filterable project cards
-- **Contact** — Phone, email, LinkedIn, GitHub
+- **Hero**: Name, tagline, and CTAs
+- **About**: Bio and quick facts
+- **Skills**: Education and technical skill categories
+- **Experience**: Five co-op and internship roles
+- **Projects**: Filterable project cards
+- **Contact**: Phone, email, LinkedIn, GitHub
 
 ## Getting Started
 
